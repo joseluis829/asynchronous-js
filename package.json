@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "author": "",
+  "license": "ISC",
   "scripts": {
     "start": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "lite-server": "=2.4.0"
+    "babel-loader": "^7.1.5",
+    "lite-server": "=2.4.0",
+    "webpack": "^4.16.5"
   }
 }
